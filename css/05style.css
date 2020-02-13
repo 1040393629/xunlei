@@ -1,0 +1,141 @@
+html,body{
+    width: 100%;
+    height: 100%;   /*子元素设置了固定定位，要在body设置宽高100%才能生效*/
+}
+/*导航样式开始*/
+.nav{
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.nav>img{
+    float: left;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.more{
+    width: 156px;
+    height: 85px;
+    line-height: 85px;
+    float: right;
+    font-size: 16px;
+    position: relative;
+    z-index: 66;
+}
+.more a{
+    color: #fff;
+}
+.more i{
+    font-size: 30px;
+    vertical-align: middle;
+}
+.nav_right{
+    width: 156px;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    right: -156px;
+    transition: all .3s ease-in;
+}
+.more:hover+.nav_right{
+    right: 0;
+}
+.nav_right:hover{
+    right: 0;
+}
+/*导航样式结束*/
+/*第一屏样式开始*/
+.one{
+    width: 100%;
+    height: 100%;   /*在body中设置宽高100%才能生效*/
+    overflow: hidden;
+    position: relative;
+}
+.one>video{
+    width: 100%;  /*同时设置宽高不生效，高度溢出部分在父元素隐藏掉*/
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+.video_text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+.video_text>img{
+    width: 716px;
+    margin-top: 20%;
+}
+.video_text a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    border: 1px solid rgba(255,255,255,.5);
+    color: #fff;
+    line-height: 50px;
+    font-size: 22px;
+    margin: 35px auto 20px;
+}
+.video_text i{
+    color: #fff;
+    font-size: 46px;
+    -moz-animation: move 1.5s linear infinite;
+    position: relative;
+}
+@-moz-keyframes move {
+    0%{
+        top: 0;
+    }
+    33%{
+        top: -5px;
+    }
+    66%{
+        top: 0;
+    }
+    100%{
+        top: 5px;
+    }
+}
+/*第一屏样式结束*/
+/*第二屏样式开始*/
+.two{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.two>img{
+    width: 100%;
+    height: 100%;
+}
+.circle{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -200px;
+    transition: all 1.5s ease-in 1.5s;
+}
+.circle>li{
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    margin-right: 45px;
+    position: relative;
+    left: 25px;
+}
+.circle>li:hover {
+    transform: scale(1.2);
+}
+.img1_text1>p{
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    right: 600px;
+}
+/*第二屏样式结束*/

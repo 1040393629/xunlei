@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3879097",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "3904656",
+      "name": "电脑",
+      "font_class": "xtubiao-",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "6253886",
+      "name": "iconfont icon-shebei",
+      "font_class": "iconfonticon-shebei",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "6489741",
+      "name": "鼠标",
+      "font_class": "shubiao",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "10809899",
+      "name": "苹果 系统",
+      "font_class": "changyongtubiao-xianxingdaochu-zhuanqu-",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    }
+  ]
+}
